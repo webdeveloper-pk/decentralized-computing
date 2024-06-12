@@ -8,7 +8,7 @@ const Hero = () => {
       className="pt-[100px] md:pt-[100px] lg:pt-[100px] 2xl:pt-[121px] pb-[50px] md:pb-[70px] lg:pb-[100px] 2xl:pb-[126px] overflow-hidden"
       style={{ zIndex: 2 }}
     >
-      <div className="w-full mx-auto overflow-hidden relative overflow-hidden">
+      <div className="w-full mx-auto overflow-hidden relative">
         <div className="flex flex-col items-center justify-center pt-[100px] lg:pt-[200px] 2xl:pt-[250px]">
           <div className="w-full relative">
             <div className="absolute center-child w-full">
