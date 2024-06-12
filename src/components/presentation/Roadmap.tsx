@@ -11,7 +11,7 @@ import phase4Line from "../../assets/images/phase4-line.png";
 
 const Roadmap = () => {
   return (
-    <div className="pb-[50px] 2xl:pb-[50px] pt-[50px] md:pt-[70px] lg:pt-[70px] 2xl:pt-[90px] relative">
+    <div className="pb-[50px] 2xl:pb-[50px] pt-[50px] md:pt-[70px] lg:pt-[70px] 2xl:pt-[90px] relative overflow-hidden">
       <p className="gradient-text uppercase text-center font-futura-medium font-medium text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px]">
         Roadmap
       </p>
@@ -43,7 +43,12 @@ const Roadmap = () => {
             </p>
           </div>
         </div>
-        <div className="pl-[16%] md:pl-[23%] lg:pl-[20%] xl:pl-[17%] 2xl:pl-[15%] w-full md:w-[100%] lg:w-[90%] xl:w-[60%] 2xl:w-[70%] mt-[30px] md:mt-[20px] lg:mt-[10px] xl:mt-[20px] 2xl:mt-[20px]">
+        <div
+          className="pl-[16%] md:pl-[23%] lg:pl-[20%] xl:pl-[17%] 2xl:pl-[15%] w-full md:w-[100%] lg:w-[90%] xl:w-[60%] 2xl:w-[70%] mt-[30px] md:mt-[20px] lg:mt-[10px] xl:mt-[20px] 2xl:mt-[20px]"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1200"
+        >
           <ul className="list-disc ml-[10px] font-inter text-[14px] md:text-[14px] 2xl:text-[15px]">
             <li>
               <span className="font-bold mr-2">
@@ -117,7 +122,12 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <div className="pl-[16%] md:pl-[23%] lg:pl-[20%] xl:pl-[34%] 2xl:pl-[30%] w-full md:w-[100%] lg:w-[90%] xl:w-[75%] 2xl:w-[80%] mt-[30px] md:mt-[20px] lg:mt-[10px] xl:mt-[20px] 2xl:mt-[20px]">
+        <div
+          className="pl-[16%] md:pl-[23%] lg:pl-[20%] xl:pl-[34%] 2xl:pl-[30%] w-full md:w-[100%] lg:w-[90%] xl:w-[75%] 2xl:w-[80%] mt-[30px] md:mt-[20px] lg:mt-[10px] xl:mt-[20px] 2xl:mt-[20px]"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1300"
+        >
           <ul className="list-disc ml-[10px] font-inter text-[14px] md:text-[14px] 2xl:text-[15px]">
             <li>
               <span className="font-bold mr-2">Platform development:</span>
@@ -174,7 +184,12 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <div className="pl-[16%] md:pl-[23%] lg:pl-[20%] xl:pl-[51%] 2xl:pl-[45%] w-full md:w-[100%] lg:w-[90%] xl:w-[90%] 2xl:w-[90%] mt-[30px] md:mt-[20px] lg:mt-[10px] xl:mt-[20px] 2xl:mt-[20px]">
+        <div
+          className="pl-[16%] md:pl-[23%] lg:pl-[20%] xl:pl-[51%] 2xl:pl-[45%] w-full md:w-[100%] lg:w-[90%] xl:w-[90%] 2xl:w-[90%] mt-[30px] md:mt-[20px] lg:mt-[10px] xl:mt-[20px] 2xl:mt-[20px]"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1400"
+        >
           <ul className="list-disc ml-[10px] font-inter text-[14px] md:text-[14px] 2xl:text-[15px]">
             <li>
               <span className="font-bold mr-2">Platform launch:</span>
@@ -234,7 +249,12 @@ const Roadmap = () => {
             </div>
           </div>
         </div>
-        <div className="pl-[16%] md:pl-[23%] lg:pl-[20%] xl:pl-[67%] 2xl:pl-[60%] w-full md:w-[100%] lg:w-[90%] xl:w-[100%] 2xl:w-[100%] mt-[30px] md:mt-[20px] lg:mt-[10px] xl:mt-[20px] 2xl:mt-[20px]">
+        <div
+          className="pl-[16%] md:pl-[23%] lg:pl-[20%] xl:pl-[67%] 2xl:pl-[60%] w-full md:w-[100%] lg:w-[90%] xl:w-[100%] 2xl:w-[100%] mt-[30px] md:mt-[20px] lg:mt-[10px] xl:mt-[20px] 2xl:mt-[20px]"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1500"
+        >
           <ul className="list-disc ml-[10px] font-inter text-[14px] md:text-[14px] 2xl:text-[15px]">
             <li>
               <span className="font-bold mr-2">Feature enhancement:</span>

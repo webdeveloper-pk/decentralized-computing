@@ -27,8 +27,8 @@ const Navbar = () => {
 
   return (
     <div>
-      <header className="w-full" style={{ zIndex: 3 }}>
-        <div className="mx-auto homepage-container homepage-container-resp text-white px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px]">
+      <header className="w-full" style={{ zIndex: 9 }}>
+        <div className="mx-auto homepage-container homepage-container-resp text-white px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] overflow-hidden">
           <a href="/">
             <img
               src={logo}

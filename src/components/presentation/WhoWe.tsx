@@ -9,19 +9,34 @@ import who4 from "../../assets/images/who-4.png";
 
 const WhoWe = () => {
   return (
-    <div className="pt-[50px] pb-[50px] lg:pb-[70px] 2xl:pb-[90px]">
-      <p className="gradient-text uppercase text-center font-futura-medium font-medium text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px]">
+    <div className="pt-[50px] pb-[50px] lg:pb-[70px] 2xl:pb-[90px] overflow-hidden">
+      <p
+        className="gradient-text uppercase text-center font-futura-medium font-medium text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px] relative"
+        style={{ zIndex: 3 }}
+      >
         Who we are?
       </p>
       <div className="min-w-full relative">
         <div className="absolute center-child w-full" style={{ zIndex: 2 }}>
-          <img src={whoLines} alt="" className="w-full" />
+          <img
+            src={whoLines}
+            alt=""
+            className="w-full"
+            data-aos="zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1500"
+            // data-aos-offset="-100"
+          />
         </div>
         <div className="absolute center-child w-full" style={{ zIndex: 1 }}>
           <img src={whobg} alt="" className="w-full" />
         </div>
         <div
           className="w-full mx-auto homepage-container homepage-container-resp px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] flex justify-center relative"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1500"
+          // data-aos-offset="-100"
           style={{ zIndex: 3 }}
         >
           <div className="absolute center-child">
@@ -61,11 +76,40 @@ const WhoWe = () => {
           Powered by top-tier tech stacks
         </p>
         <div className="h-[1px] w-full lg:w-[70%] mx-auto bg-[#FFFFFF1A]"></div>
-        <div className="flex flex-wrap justify-center items-center gap-[30px] md:gap-[50px] my-[15px]">
-          <img src={who1} alt="" className="" />
-          <img src={who2} alt="" className="" />
-          <img src={who3} alt="" className="" />
-          <img src={who4} alt="" className="" />
+        <div className="flex flex-wrap justify-center items-center gap-[20px] md:gap-[50px] my-[25px] md:my-[15px]">
+          <img
+            src={who1}
+            alt=""
+            className="w-[100px] h-[30px]"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1800"
+            // data-aos-offset="-100"
+          />
+          <img
+            src={who2}
+            alt=""
+            className="w-[140px] h-[26px]"
+            data-aos="fade-right"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1500"
+          />
+          <img
+            src={who3}
+            alt=""
+            className="w-[57px] h-[35px]"
+            data-aos="fade-left"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1500"
+          />
+          <img
+            src={who4}
+            alt=""
+            className="w-[50px] h-[50px]"
+            data-aos="fade-left"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1800"
+          />
         </div>
         <div className="h-[1px] w-full lg:w-[70%] mx-auto bg-[#FFFFFF1A]"></div>
       </div>

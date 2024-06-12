@@ -6,12 +6,17 @@ import joining4 from "../../assets/images/joining4.png";
 
 const joining = () => {
   return (
-    <div className="w-full mx-auto homepage-container homepage-container-resp px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] py-[50px] lg:py-[70px] 2xl:py-[90px]">
+    <div className="w-full mx-auto homepage-container homepage-container-resp px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] py-[50px] lg:py-[70px] 2xl:py-[90px] overflow-hidden">
       <p className="gradient-text uppercase text-center font-futura-medium font-medium text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px]">
         Join Our Community
       </p>
       <div className="mt-[40px] lg:mt-[45px] w-full grid grid-cols-1 lg:grid-cols-2 gap-y-[30px] gap-x-[30px] 2xl:gap-x-[40px] text-white">
-        <div className="offering-card-even-border rounded-[20px] 2xl:rounded-[38px]">
+        <div
+          className="offering-card-even-border rounded-[20px] 2xl:rounded-[38px]"
+          data-aos="zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1200"
+        >
           <div className="flex justify-between lg:flex-col xl:flex-row items-center lg:items-start xl:items-center gap-[30px] bg-[#13131C] offering-card-even px-[20px] md:px-[25px] py-[20px] lg:py-[35px] xl:py-[35px] rounded-[20px] 2xl:rounded-[38px] w-full h-full">
             <div className="flex flex-col md:flex-row md:items-center lg:items-center 2xl:items-center gap-[20px] lg:flex-row xl:flex-row">
               <img src={joining1} alt="joining" className="w-[80px] h-[80px]" />
@@ -51,7 +56,12 @@ const joining = () => {
             </button>
           </div>
         </div>
-        <div className="offering-card-odd-border rounded-[20px] rounded-tr-[80px] lg:rounded-[38px] lg:rounded-tr-[100px] 2xl:rounded-tr-[160px]">
+        <div
+          className="offering-card-odd-border rounded-[20px] rounded-tr-[80px] lg:rounded-[38px] lg:rounded-tr-[100px] 2xl:rounded-tr-[160px]"
+          data-aos="zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1200"
+        >
           <div className="flex justify-between lg:flex-col xl:flex-row items-center lg:items-start xl:items-center gap-[30px] px-[20px] md:px-[25px] py-[20px] lg:py-[35px] xl:py-[35px] bg-[#19191E] offering-card-odd rounded-tr-[80px] lg:rounded-tr-[100px] 2xl:rounded-tr-[160px] rounded-[20px] lg:rounded-[38px] w-full h-full">
             <div className="md:flex-row gap-[20px] flex flex-col lg:flex-row xl:flex-row 2xl:flex-row md:items-center lg:items-center xl:items-center">
               <img src={joining2} alt="joining" className="w-[80px] h-[80px]" />
@@ -91,7 +101,12 @@ const joining = () => {
             </button>
           </div>
         </div>
-        <div className="offering-card-even-border3 rounded-[20px] rounded-bl-[80px] lg:rounded-[38px] lg:rounded-bl-[100px] 2xl:rounded-bl-[160px]">
+        <div
+          className="offering-card-even-border3 rounded-[20px] rounded-bl-[80px] lg:rounded-[38px] lg:rounded-bl-[100px] 2xl:rounded-bl-[160px]"
+          data-aos="zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1500"
+        >
           <div className="flex justify-between lg:flex-col xl:flex-row items-center lg:items-start xl:items-center gap-[30px] bg-[#13131C] offering-card-even px-[20px] md:px-[25px] py-[20px] lg:py-[35px] xl:py-[35px] rounded-bl-[80px] lg:rounded-bl-[100px] 2xl:rounded-bl-[160px] rounded-[20px] lg:rounded-[38px] w-full h-full">
             <div className="flex flex-col-reverse md:items-center lg:flex-row xl:flex-row lg:items-center xl:items-center gap-[20px] md:flex-row">
               <img src={joining3} alt="joining" className="w-[80px] h-[80px]" />
@@ -131,7 +146,12 @@ const joining = () => {
             </button>
           </div>
         </div>
-        <div className="offering-card-odd-border4 rounded-[20px] 2xl:rounded-[38px]">
+        <div
+          className="offering-card-odd-border4 rounded-[20px] 2xl:rounded-[38px]"
+          data-aos="zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1500"
+        >
           <div className="flex justify-between lg:flex-col xl:flex-row items-center lg:items-start xl:items-center gap-[30px] px-[20px] md:px-[25px] py-[20px] lg:py-[35px] xl:py-[35px] bg-[#19191E] offering-card-odd rounded-[20px] 2xl:rounded-[38px] w-full h-full">
             <div className="flex flex-col md:items-center lg:flex-row xl:flex-row lg:items-center xl:items-center gap-[20px] md:flex-row">
               <img src={joining4} alt="joining" className="w-[80px] h-[80px]" />

@@ -9,7 +9,7 @@ import bottom from "../../assets/images/bottom.png";
 
 const Tokenomics = () => {
   return (
-    <div className="pt-[50px] md:pt-[50px] lg:pt-[50px] 2xl:pt-[50px] pb-[50px] md:pb-[70px] lg:pb-[70px] 2xl:pb-[80px] relative">
+    <div className="pt-[50px] md:pt-[50px] lg:pt-[50px] 2xl:pt-[50px] pb-[50px] md:pb-[70px] lg:pb-[70px] 2xl:pb-[80px] relative overflow-hidden">
       <p className="gradient-text uppercase text-center font-futura-medium font-medium text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px]">
         Tokonomics
       </p>
@@ -53,12 +53,25 @@ const Tokenomics = () => {
                   src={tokenomics}
                   alt="circle"
                   className="w-[250px] h-[260px] md:w-[350px] md:h-[360px] lg:w-[400px] lg:h-[420px] xl:w-[450px] xl:h-[470px] 2xl:w-[530px] 2xl:h-[570px]"
+                  data-aos="zoom-in"
+                  data-aos-easing="ease-in-out"
+                  data-aos-duration="1200"
                 />
                 <div className="center-child">
-                  <p className="text-center text-[#AC9FFF] font-futura-light font-light text-[15px] lg:text-[16px] 2xl:text-[24px] md:tracking-[2px]">
+                  <p
+                    className="text-center text-[#AC9FFF] font-futura-light font-light text-[15px] lg:text-[16px] 2xl:text-[24px] md:tracking-[2px]"
+                    data-aos="zoom-out"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="1500"
+                  >
                     TOKONOMICS
                   </p>
-                  <p className="mt-[7px] text-center text-white font-futura-bold font-bold text-[18px] md:text-[24px] lg:text-[36px] 2xl:text-[54px]">
+                  <p
+                    className="mt-[7px] text-center text-white font-futura-bold font-bold text-[18px] md:text-[24px] lg:text-[36px] 2xl:text-[54px]"
+                    data-aos="zoom-out"
+                    data-aos-easing="ease-in-out"
+                    data-aos-duration="1500"
+                  >
                     100,000,000
                   </p>
                 </div>
