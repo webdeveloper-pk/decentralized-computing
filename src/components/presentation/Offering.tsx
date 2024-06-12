@@ -7,9 +7,9 @@ import ellipse from "../../assets/images/offering-ellipse.png";
 
 const Offering = () => {
   return (
-    <div className="relative">
-      <div className="absolute right-[0%] -top-[20%]">
-        <img src={ellipse} alt="ellipse" className="w-[100%]" />
+    <div className="w-full h-auto relative">
+      <div className="overflow-none absolute right-[0%] -top-[100%]">
+        <img src={ellipse} alt="ellipse" className="w-[100%] h-auto" />
       </div>
       <div className="w-full mx-auto homepage-container homepage-container-resp px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] py-[50px] lg:py-[70px] 2xl:py-[90px]">
         <p className="gradient-text uppercase text-center font-futura-medium font-medium text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px]">
