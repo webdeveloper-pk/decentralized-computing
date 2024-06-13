@@ -9,7 +9,7 @@ const Hero = () => {
       style={{ zIndex: 2 }}
     >
       <div className="w-full mx-auto overflow-hidden relative">
-        <div className="flex flex-col items-center justify-center pt-[100px] lg:pt-[200px] 2xl:pt-[250px]">
+        <div className="flex flex-col items-center justify-center pt-[100px] lg:pt-[200px] 2xl:pt-[250px] ">
           <div className="w-full relative">
             <div className="absolute center-child w-full">
               <img
@@ -22,7 +22,7 @@ const Hero = () => {
                 // data-aos-offset="-100"
               />
             </div>
-            <div className="mx-auto flex flex-col items-center homepage-container-resp homepage-container px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px]">
+            <div className="mx-auto flex flex-col items-center homepage-container-resp homepage-container px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] overflow-hidden">
               <p
                 className="uppercase text-white mx-auto lg:mx-0 w-[100%] md:w-[60%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%] text-center font-futura-bold font-bold text-[30px] md:text-[36px] lg:text-[36px] xl:text-[40px] 2xl:text-[55px] lg:leading-[50px] 2xl:leading-[75px]"
                 data-aos="fade-up"
