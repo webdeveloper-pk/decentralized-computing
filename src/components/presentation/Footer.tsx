@@ -9,7 +9,7 @@ const Footer = () => {
       data-aos-duration="1500"
       // data-aos-offset="-100"
     >
-      <div className="gap-y-[35px] border-t border-b border-[#242424] py-[30px] lg:py-[47px] flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
+      <div className="xl:px-[40px] 2xl:px-[60px] gap-y-[35px] border-t border-b border-[#242424] py-[30px] lg:py-[47px] flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
         <div>
           <p className="lg:mt-2 uppercase font-futura-bold font-bold text-white text-[18px] md:text-[18px] lg:text-[20px] xl:text-[24px] 2xl:text-[28px]">
             LOGO
