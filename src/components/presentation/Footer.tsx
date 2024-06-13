@@ -2,7 +2,13 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mx-auto homepage-container homepage-container-resp px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] overflow-hidden">
+    <div
+      className="mx-auto homepage-container homepage-container-resp px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] overflow-hidden"
+      data-aos="fade-up"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="1500"
+      // data-aos-offset="-100"
+    >
       <div className="gap-y-[35px] border-t border-b border-[#242424] py-[30px] lg:py-[47px] flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
         <div>
           <p className="lg:mt-2 uppercase font-futura-bold font-bold text-white text-[18px] md:text-[18px] lg:text-[20px] xl:text-[24px] 2xl:text-[28px]">
