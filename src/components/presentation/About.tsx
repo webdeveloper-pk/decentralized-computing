@@ -5,6 +5,7 @@ import ellipse from "../../assets/images/about-ellipse.png";
 const About = () => {
   return (
     <div
+      id="about"
       className="w-full mx-auto homepage-container pl-[20px] pr-[0px] md:pl-[50px] md:pr-[0px] lg:pr-0 lg:pl-[80px] xl:pl-[90px] 2xl:pl-[200px] py-[50px] lg:py-[70px] 2xl:py-[90px]
     relative overflow-hidden"
     >
