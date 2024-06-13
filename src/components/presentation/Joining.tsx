@@ -6,7 +6,7 @@ import joining4 from "../../assets/images/joining4.png";
 
 const joining = () => {
   return (
-    <div className="w-full mx-auto homepage-container homepage-container-resp px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] py-[50px] lg:py-[70px] 2xl:py-[90px] overflow-hidden">
+    <div className="w-full mx-auto homepage-container homepage-container-resp px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] pt-[50px] lg:pt-[70px] 2xl:pt-[90px] pb-[50px] overflow-hidden">
       <p className="gradient-text uppercase text-center font-futura-medium font-medium text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px]">
         Join Our Community
       </p>

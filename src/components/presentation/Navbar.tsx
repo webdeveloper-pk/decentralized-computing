@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from "../../assets/images/logo.png";
+// import logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
   // eslint-disable-next-line

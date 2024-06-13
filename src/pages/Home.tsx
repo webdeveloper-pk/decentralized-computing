@@ -11,6 +11,7 @@ import rightEllipse from "../assets/images/hero-right-ellipse.png";
 import Tokenomics from "components/presentation/Tokenomics";
 import Roadmap from "components/presentation/Roadmap";
 import Footer from "components/presentation/Footer";
+import Faq from "components/presentation/FAQ";
 
 const Home = () => {
   // const canvasRef: any = useRef(null);
@@ -82,6 +83,7 @@ const Home = () => {
       <Roadmap />
       <Tokenomics />
       <Joining />
+      <Faq />
       <Footer />
     </div>
   );
