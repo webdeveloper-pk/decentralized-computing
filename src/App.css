@@ -222,34 +222,6 @@ header {
   border: 0.42px solid #ac9fff29;
 }
 
-/*  */
-
-.top-line-wrapper3 {
-}
-
-.top-line-image3 {
-}
-
-.top-line-wrapper3 {
-}
-
-.top-line-image3 {
-}
-
-/* roadmap */
-
-/* .phase1-container::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  top: 100%;
-  width: 1px;
-  height: 100%;
-  background: url("./assets/images//phase1-line.png") no-repeat center center;
-  background-size: contain;
-} */
-
 @media screen and (min-width: 1920px) {
   .homepage-container-resp {
     padding-left: 200px;
@@ -482,5 +454,227 @@ header {
   .offering-card-odd-border::before {
     border-radius: 20px;
     border-top-right-radius: 80px;
+  }
+}
+
+/* media queries for raodmap */
+
+@media screen and (min-width: 1801px) {
+  .roadmap-wrapper-resp {
+    min-width: 1450px;
+    max-width: 1450px;
+    width: 1450px;
+  }
+
+  .roadmap-line-resp {
+    margin-left: 11.7%;
+  }
+
+  .roadmap-line-img {
+    width: 16.8%;
+  }
+
+  .roadmap-wrapper-resp2 {
+    min-width: 1450px;
+    max-width: 1450px;
+    width: 1450px;
+  }
+
+  .roadmap-line-resp2 {
+    margin-left: 26.6%;
+  }
+
+  .roadmap-line-img2 {
+    width: 20.4%;
+  }
+
+  .roadmap-wrapper-resp3 {
+    min-width: 1450px;
+    max-width: 1450px;
+    width: 1450px;
+  }
+
+  .roadmap-line-resp3 {
+    margin-left: 41.6%;
+  }
+
+  .roadmap-line-img3 {
+    width: 25.7%;
+  }
+}
+
+@media screen and (max-width: 1800px) and (min-width: 1701px) {
+  .roadmap-wrapper-resp {
+    min-width: 1400px;
+    max-width: 1400px;
+    width: 1400px;
+  }
+
+  .roadmap-line-resp {
+    margin-left: 12%;
+  }
+
+  .roadmap-line-img {
+    width: 17%;
+  }
+
+  .roadmap-wrapper-resp2 {
+    min-width: 1400px;
+    max-width: 1400px;
+    width: 1400px;
+  }
+
+  .roadmap-line-resp2 {
+    margin-left: 27%;
+  }
+
+  .roadmap-line-img2 {
+    width: 20.5%;
+  }
+
+  .roadmap-wrapper-resp3 {
+    min-width: 1400px;
+    max-width: 1400px;
+    width: 1400px;
+  }
+
+  .roadmap-line-resp3 {
+    margin-left: 42%;
+  }
+
+  .roadmap-line-img3 {
+    width: 25.9%;
+  }
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1536px) {
+  .roadmap-wrapper-resp {
+    min-width: 1300px;
+    max-width: 1300px;
+    width: 1300px;
+  }
+
+  .roadmap-line-resp {
+    margin-left: 13%;
+  }
+
+  .roadmap-line-img {
+    width: 17.1%;
+  }
+
+  .roadmap-wrapper-resp2 {
+    min-width: 1300px;
+    max-width: 1300px;
+    width: 1300px;
+  }
+
+  .roadmap-line-resp2 {
+    margin-left: 28%;
+  }
+
+  .roadmap-line-img2 {
+    width: 20.6%;
+  }
+
+  .roadmap-wrapper-resp3 {
+    min-width: 1300px;
+    max-width: 1300px;
+    width: 1300px;
+  }
+
+  .roadmap-line-resp3 {
+    margin-left: 43%;
+  }
+
+  .roadmap-line-img3 {
+    width: 26.2%;
+  }
+}
+
+@media screen and (max-width: 1535px) and (min-width: 1401px) {
+  .roadmap-wrapper-resp {
+    min-width: 1200px;
+    max-width: 1200px;
+    width: 1200px;
+  }
+
+  .roadmap-line-resp {
+    margin-left: 11.4%;
+  }
+
+  .roadmap-line-img {
+    width: 19.1%;
+  }
+
+  .roadmap-wrapper-resp2 {
+    min-width: 1200px;
+    max-width: 1200px;
+    width: 1200px;
+  }
+
+  .roadmap-line-resp2 {
+    margin-left: 28.4%;
+  }
+
+  .roadmap-line-img2 {
+    width: 23.55%;
+  }
+
+  .roadmap-wrapper-resp3 {
+    min-width: 1200px;
+    max-width: 1200px;
+    width: 1200px;
+  }
+
+  .roadmap-line-resp3 {
+    margin-left: 45.3%;
+  }
+
+  .roadmap-line-img3 {
+    width: 31%;
+  }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1280px) {
+  .roadmap-wrapper-resp {
+    min-width: 1100px;
+    max-width: 1100px;
+    width: 1100px;
+  }
+
+  .roadmap-line-resp {
+    margin-left: 12.5%;
+  }
+
+  .roadmap-line-img {
+    width: 19.1%;
+  }
+
+  .roadmap-wrapper-resp2 {
+    min-width: 1100px;
+    max-width: 1100px;
+    width: 1100px;
+  }
+
+  .roadmap-line-resp2 {
+    margin-left: 29.4%;
+  }
+
+  .roadmap-line-img2 {
+    width: 23.9%;
+  }
+
+  .roadmap-wrapper-resp3 {
+    min-width: 1100px;
+    max-width: 1100px;
+    width: 1100px;
+  }
+
+  .roadmap-line-resp3 {
+    margin-left: 46.4%;
+  }
+
+  .roadmap-line-img3 {
+    width: 31.6%;
   }
 }
