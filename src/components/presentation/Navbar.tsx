@@ -191,7 +191,7 @@ const Navbar = () => {
             className="profile-sidebar-inner relative"
             onClick={onSidebarClick}
           >
-            <div className="absolute right-[20px] top-[20px] md:right-[45px] md:top-[27px]">
+            <div className="absolute right-[20px] top-[25px] md:right-[45px] md:top-[27px]">
               <button
                 onClick={toggleSidebar}
                 className="focus:outline-none block lg:hidden"
