@@ -1,5 +1,4 @@
 import React from "react";
-import gpu from "../../assets/images/gpu.png";
 import whoLines from "../../assets/images/who-lines.png";
 import whobg from "../../assets/images/who-we-bg.png";
 import who1 from "../../assets/images/who-1.png";
@@ -25,7 +24,6 @@ const WhoWe = () => {
             data-aos="zoom-in"
             data-aos-easing="ease-in-out"
             data-aos-duration="1500"
-            // data-aos-offset="-100"
           />
         </div>
         <div className="absolute center-child w-full" style={{ zIndex: 1 }}>
@@ -36,36 +34,18 @@ const WhoWe = () => {
           data-aos="fade-up"
           data-aos-easing="ease-in-out"
           data-aos-duration="1500"
-          // data-aos-offset="-100"
           style={{ zIndex: 3 }}
         >
-          <div className="absolute center-child">
-            <svg
-              width="110"
-              height="110"
-              viewBox="0 0 110 110"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-[70px] h-[70px] 2xl:w-[110px] 2xl:h-[110px]"
-            >
-              <path
-                d="M55 96.25C77.7817 96.25 96.25 77.7817 96.25 55C96.25 32.2183 77.7817 13.75 55 13.75C32.2183 13.75 13.75 32.2183 13.75 55C13.75 77.7817 32.2183 96.25 55 96.25Z"
-                stroke="white"
-                stroke-width="4"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M68.75 55L45.8333 41.25V68.75L68.75 55Z"
-                stroke="white"
-                stroke-width="4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
+          <div className="my-[50px] lg::my-[70px] 2xl:my-[100px] w-[100%] md:w-[100%] lg:w-[60%] h-[250px] md:h-[300px] lg:h-[350px] xl:h-[400px] 2xl:h-[500px]">
+            <iframe
+              title="about"
+              src="https://drive.google.com/file/d/1YaLliri8QYC2d6izOBfYLoWEZj4e4IFx/preview"
+              width="100%"
+              height="100%"
+              allow="autoplay"
+              className="w-[100%] md:w-[80%] lg:w-[100%] 2xl:w-[100%] mx-auto rounded-[11px]"
+            ></iframe>
           </div>
-          <img src={gpu} alt="gpu" className="w-[80%] lg:w-[70%] 2xl:w-[60%]" />
         </div>
       </div>
       <div

@@ -37,7 +37,7 @@ const About = () => {
                   data-aos-easing="ease-in-out"
                   data-aos-duration="1500"
                 >
-                  AI-powered mining optimizer
+                  AI mining optimization
                 </p>
                 <p
                   className="mt-[7px] font-inter font-light text-[#D4D4D4] text-[14px] md:etxt-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]"
@@ -68,7 +68,7 @@ const About = () => {
                   data-aos-easing="ease-in-out"
                   data-aos-duration="1700"
                 >
-                  Revenue sharing
+                  4x Revenue sharing
                 </p>
                 <p
                   className="mt-[7px] font-inter font-light text-[#D4D4D4] text-[14px] md:etxt-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]"
@@ -99,7 +99,7 @@ const About = () => {
                   data-aos-easing="ease-in-out"
                   data-aos-duration="1900"
                 >
-                  Revenue sharing
+                  Plugin compatibility
                 </p>
                 <p
                   className="mt-[7px] font-inter font-light text-[#D4D4D4] text-[14px] md:text-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]"
@@ -130,7 +130,7 @@ const About = () => {
                   data-aos-easing="ease-in-out"
                   data-aos-duration="2100"
                 >
-                  Revenue sharing
+                  Partnerships
                 </p>
                 <p
                   className="mt-[7px] font-inter font-light text-[#D4D4D4] text-[14px] md:text-[15px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px]"
