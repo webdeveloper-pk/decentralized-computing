@@ -6,7 +6,7 @@ const { Panel } = Collapse;
 
 const Faq = () => {
   return (
-    <div className="faq-bg">
+    <div className="faq-bg" id="Faqs">
       <div className="w-full mx-auto homepage-container homepage-container-resp px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] pt-[50px] lg:pt-[50px] pb-[30px] lg:pb-[40px] overflow-hidden">
         <div className="flex flex-col items-center">
           <p className="gradient-text uppercase text-center font-futura-medium font-medium text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px]">

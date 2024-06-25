@@ -7,7 +7,7 @@ import ellipse from "../../assets/images/offering-ellipse.png";
 
 const Offering = () => {
   return (
-    <div className="w-full h-auto relative">
+    <div className="w-full h-auto relative" id="Offering">
       <div className="absolute right-[0%] -top-[20%]">
         <img src={ellipse} alt="ellipse" className="w-[100%] h-auto" />
       </div>

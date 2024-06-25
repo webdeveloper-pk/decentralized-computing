@@ -9,7 +9,10 @@ import bottom from "../../assets/images/bottom.png";
 
 const Tokenomics = () => {
   return (
-    <div className="pt-[50px] md:pt-[50px] lg:pt-[50px] 2xl:pt-[50px] pb-[50px] md:pb-[70px] lg:pb-[70px] 2xl:pb-[80px] relative overflow-hidden">
+    <div
+      className="pt-[50px] md:pt-[50px] lg:pt-[50px] 2xl:pt-[50px] pb-[50px] md:pb-[70px] lg:pb-[70px] 2xl:pb-[80px] relative overflow-hidden"
+      id="Tokonomics"
+    >
       <p className="gradient-text uppercase text-center font-futura-medium font-medium text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px]">
         Tokonomics
       </p>

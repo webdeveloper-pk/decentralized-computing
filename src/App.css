@@ -123,6 +123,83 @@ header {
   transform: translate(-50%, -50%);
 }
 
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 7px 15px;
+  text-decoration: none;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+
+nav.shift ul li a {
+  position: relative;
+  z-index: 1;
+}
+
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: ".";
+  color: transparent;
+  background: linear-gradient(90deg, #b514fd 1.42%, #5f75f5 97.8%);
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+  border-radius: 10px;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+
+.active-profile-sidebar {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  transition: all 0.5s;
+}
+
+.not-active-profile-sidebar {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  background: #000;
+  transition: all 0.5s;
+}
+
+.profile-sidebar-inner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 /* offering */
 
 .offering-card-even {

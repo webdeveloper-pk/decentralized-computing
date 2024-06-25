@@ -11,7 +11,10 @@ import phaseTop from "../../assets/images/phase-top1.png";
 
 const Roadmap = () => {
   return (
-    <div className="pb-[50px] 2xl:pb-[50px] pt-[50px] md:pt-[70px] lg:pt-[70px] 2xl:pt-[90px] relative overflow-hidden">
+    <div
+      className="pb-[50px] 2xl:pb-[50px] pt-[50px] md:pt-[70px] lg:pt-[70px] 2xl:pt-[90px] relative overflow-hidden"
+      id="Roadmap"
+    >
       <p className="gradient-text uppercase text-center font-futura-medium font-medium text-[20px] md:text-[24px] lg:text-[28px] xl:text-[32px] 2xl:text-[40px]">
         Roadmap
       </p>
