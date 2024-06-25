@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
@@ -11,9 +12,7 @@ const Footer = () => {
     >
       <div className="xl:px-[40px] 2xl:px-[60px] gap-y-[35px] border-t border-b border-[#242424] py-[30px] lg:py-[47px] flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
         <div>
-          <p className="lg:mt-2 uppercase font-futura-bold font-bold text-white text-[18px] md:text-[18px] lg:text-[20px] xl:text-[24px] 2xl:text-[28px]">
-            LOGO
-          </p>
+          <img src={logo} alt="logo" className="w-[140px] lg:w-[200px]" />
         </div>
         <div className="flex w-full lg:justify-center lg:gap-x-[100px] xl:gap-x-[150px] 2xl:gap-x-[200px]">
           <ul className="w-full lg:w-auto flex flex-col items-center lg:items-start gap-[25px] lg:gap-[30px]">

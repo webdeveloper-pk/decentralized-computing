@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -36,11 +37,9 @@ const Navbar = () => {
   return (
     <header className="z-[999] mx-auto homepage-container homepage-container-resp text-white px-[20px] md:px-[50px] lg:px-[80px] xl:px-[90px] 2xl:px-[200px] overflow-hidden">
       <div className="mx-auto homepage-container">
-        <div className="w-full flex flex-row justify-between items-center gap-x-[20px]">
+        <div className="w-full flex flex-row justify-between items-center gap-x-[10px]">
           <a href="/">
-            <p className="uppercase font-futura-bold font-bold text-white text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px]">
-              LOGO
-            </p>
+            <img src={logo} alt="logo" className="w-[140px] 2xl:w-[200px]" />
           </a>
           <button
             onClick={toggleSidebar}
@@ -78,7 +77,7 @@ const Navbar = () => {
             </svg>
           </button>
           <nav className="hidden shift lg:block">
-            <ul className="nav-list flex items-center justify-center gap-x-[5px] xl:gap-x-[20px] 2xl:gap-x-[30px]">
+            <ul className="nav-list flex items-center justify-center gap-x-[0px] xl:gap-x-[20px] 2xl:gap-x-[30px]">
               <li
                 className=""
                 data-aos="fade-down"
